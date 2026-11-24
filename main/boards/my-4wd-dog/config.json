@@ -1,0 +1,10 @@
+{
+  "type": "my-4wd-dog",
+  "target": "esp32s3",
+  "builds": [
+    {
+      "name": "my-4wd-dog",
+      "sdkconfig_append": []
+    }
+  ]
+}
