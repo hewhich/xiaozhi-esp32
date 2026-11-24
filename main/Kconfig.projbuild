@@ -172,6 +172,9 @@ choice BOARD_TYPE
     config BOARD_TYPE_BREAD_COMPACT_NT26
         bool "Bread Compact NT26 4G (面包板)"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_MY_4WD_DOG
+        bool "My 4WD Dog (四轮差速机器狗)"
+        depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_BREAD_COMPACT_WIFI
         bool "Bread Compact Wi-Fi (面包板)"
         depends on IDF_TARGET_ESP32S3
